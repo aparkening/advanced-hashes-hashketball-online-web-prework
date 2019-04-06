@@ -196,11 +196,9 @@ end
 def winning_team
   total_points = 0
   points_hash = { }
-  
 
   # Add points from each player to team hash
   game_hash.each do |location, team_data|
-    
     team_data[:players].each do |name, stats| 
       total_points = stats[:points] + total_points
     end
@@ -251,5 +249,4 @@ def long_name_steals_a_ton?
   
   # Compare player with player with longest name
   return true if player == player_with_longest_name
-  
 end
