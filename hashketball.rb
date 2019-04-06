@@ -236,7 +236,7 @@ def player_with_longest_name
 end
 
 # Return true if player with the longest name had the most steals
-def long_name_steals_a_ton
+def long_name_steals_a_ton?
   # Find player with most steals
   most_steals = 0
   player = ""
