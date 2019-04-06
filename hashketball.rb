@@ -248,12 +248,8 @@ def long_name_steals_a_ton
       end
     end
   end
-  player
   
   # Compare player with player with longest name
-  
-  player_with_longest_name
-  
-  
+  return true if player == player_with_longest_name
   
 end
